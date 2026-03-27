@@ -4,6 +4,7 @@ return {
   lazy = false,
   dependencies = {
     "nvim-tree/nvim-web-devicons",
+    "MunifTanjim/nui.nvim",
   },
   config = function()
     require("nvim-tree").setup {}
